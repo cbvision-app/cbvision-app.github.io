@@ -90,7 +90,7 @@ h2 {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: radial-gradient(circle, #ffe5d5 0, transparent 250px);
+    background: radial-gradient(circle, #ffe5d5 0, transparent 50%);
     position: absolute;
     z-index: -1;
     left: calc(50% - 250px);
@@ -158,13 +158,13 @@ h3 {
 .showcase__scene--morning { background: linear-gradient(180deg, #E97822 0%, #FAD25D 100%); }
 .showcase__scene--morning h3 { color: #57380B }
 .showcase__scene--morning p { color: #7D5419 }
-.showcase__scene--morning:after { background: radial-gradient(circle, #f2a520 0, transparent 250px); }
+.showcase__scene--morning:after { background: radial-gradient(circle, #f2a520 0, transparent 50%); }
 .showcase__scene--morning .scene__front, .showcase__scene--morning .scene__back { animation-delay: 0s }
 
 .showcase__scene--night { background: linear-gradient(180deg, #24162C 0%, #3F41A2 100%); }
 .showcase__scene--night h3 { color: #BFBCF1 }
 .showcase__scene--night p { color: #8E94E9 }
-.showcase__scene--night:after { background: radial-gradient(circle, #3C3B8F 0, transparent 250px); }
+.showcase__scene--night:after { background: radial-gradient(circle, #3C3B8F 0, transparent 50%); }
 .showcase__scene--night .scene__front, .showcase__scene--night .scene__back { animation-delay: 2s }
 
 .features-grid {
