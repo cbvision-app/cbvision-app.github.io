@@ -37,7 +37,7 @@ a:focus, a:active {
 	text-align: center;
 	position: relative;
 	height: 100vh;
-	min-height: 800px;
+	min-height: auto;
 	overflow: hidden;
 }
 
@@ -146,7 +146,7 @@ a:focus, a:active {
 }
 
 .about-me {
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 
 	.feature-heading {
 		margin-bottom: 50px;
