@@ -20,11 +20,6 @@ a {
 	text-decoration: none
 }
 
-a:focus, a:active {
-	outline: none;
-	border: none;
-}
-
 .container {
 	max-width: 1040px;
 	padding: 0 20px;
@@ -52,6 +47,7 @@ a:focus, a:active {
 .icon {
 	position: relative;
 	z-index: 1;
+	border-radius: 20px;
 }
 
 .app-name {
@@ -100,6 +96,10 @@ a:focus, a:active {
 	border-color: rgba(white, 0.5);
 }
 
+.download-button:active, .download-button:focus {
+	border-color: rgba(white, 0.75);
+}
+
 .iphone-container {
 	position: relative;
 	z-index: 1;
@@ -127,13 +127,6 @@ a:focus, a:active {
 /**
  * FEATURES
  */
-
-.feature-heading {
-	font-size: 36px;
-	line-height: 1.4;
-	color: #FFFFFF;
-	font-weight: 500;
-}
 
 .feature-desc {
 	opacity: 0.75;
@@ -165,7 +158,6 @@ a:focus, a:active {
 
 	.light {
 		opacity: 0.75;
-		font-weight: 300;
 	}
 }
 
